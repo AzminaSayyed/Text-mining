@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "Final Project"
+version = "0.1.0"
+description = "Assignment 5: Retrieval Augmented Generation"
+authors = ["Martin Bukowski <martin.bukowski@rockhurst.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "*"
+pandas = "*"
+scikit-learn = "*"
+numpy = "<2"
+groq = "*"
+google-generativeai = "*"
+transformers = "*"
+torch = "*"
+python-dotenv = "*"
+click = "*"
+wonderwords = "*"
+flask = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
